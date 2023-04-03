@@ -1,0 +1,33 @@
+
+<div class="container">
+    <h2>Add a Unit Conversion Problem</h2>
+
+    <form (submit)="onSubmit()" #formElement>
+      <label>
+        Input Unit:
+        <input type="text" [(ngModel)]="inputUnit" name="inputUnit" required>
+      </label>
+      <br>
+    
+      <label>
+        Target Unit:
+        <input type="text" [(ngModel)]="targetUnit" name="targetUnit" required>
+      </label>
+      <br>
+    
+      <label>
+        Input Numerical Value:
+        <input type="number" [(ngModel)]="inputNumericalValue" name="inputNumericalValue" required>
+      </label>
+      <br>
+    
+      <label>
+        Authoritative Answer:
+        <input type="number" [(ngModel)]="authoritativeAnswer" name="authoritativeAnswer" required>
+      </label>
+      <br>
+    
+      <button type="submit">Add Problem</button>
+    </form>
+    
+</div>

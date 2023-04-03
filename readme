@@ -1,0 +1,6 @@
+Command to run backend
+node index
+
+
+Command to run frontend
+ng serve
